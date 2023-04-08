@@ -11,7 +11,7 @@ contract iFts{
 
     // IPNS_LINK "is a storage location". Our fts (Fungible Tokens) are store in IPFS. Data store in IPFS allow to shared across peers on the network. This is a private network. Through some advance functions all FTS are available over public network.
     // These FTS are purchasable through iFTS contract. 
-    string constant IPNS_LINK = "https://ipfs.io/ipns/k51qzi5uqu5djjs32dgcnh7ipz41i3ajzkyuf21hu90hdx8qcmiooeh3locn60";
+    string constant IPNS_LINK = "https://ipfs.io/ipns/k51qzi5uqu5djjs32dgcnh7ipz41i3ajzkyuf21hu90hdx8qcmiooeh3locn60/";
 
     // Categories FTS 
     enum Collectibles_Items {ENIGMA_DIR, DAVID, SEVEN_DWARFS, WISDOMENIGMA_LOGO, WIZDWARFS_GENOME_EXTRACTOR, NONE}
